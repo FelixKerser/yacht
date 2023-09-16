@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@300;400;500;600;700&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --Black:#001829;
+    --White:#FFF;
+    --Blue:#0EA3C4;
+    --Green:#4DC40E;
+    --bright-green:#BEF434;
+    --Grey:#F1F1F1;
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    width:100%;
+}
+
+header{
+    position:fixed;
+    top:0;
+    display: flex;
+    max-width: 90%;
+    width: 90%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:25px;
+    padding-bottom:25px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color:var(--Grey);
+}
+
+.menu{
+    display: flex;
+    padding-left:0;
+}
+
+.menu li{
+    list-style-type: none;
+    margin-right:35px;
+    color:var(--Black);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-family:'Inter';
+    position:relative;
+}
+
+.menu li::after{
+    content:'';
+    position:absolute;
+    bottom:-5px;
+    width:0%;
+    height:4px;
+    background-color:var(--bright-green);
+    left:0;
+    transition: .3s;
+}
+
+.menu li:hover::after{
+    width:100%;
+}
+
+.menu li:last-child{
+    margin-right:0;
+}
+
+.tsection-header a{
+    color:var(--White);
+    font-size: 23px;
+    background-color:var(--Black);
+    padding:15px 28px;
+    font-weight: 600;
+    border-radius: 66px;
+}
+
+.tel-header{
+    margin-right:36px;
+}
+
+.tel-header a{
+    color:var(--Black);
+    font-weight: 600;
+    font-family:'Inter';
+    font-size: 18px;
+}
+
+.fsection-header{
+    display: flex;
+    align-items: center;
+}
+
+.logo-wrapper{
+    margin-right:36px;
+}
+
+.social-wrapper img{
+    height:35px;
+    width:35px;
+    object-fit: cover;
+}
+
+.social-wrapper a{
+    margin-right:10px;
+}
+
+.ssection-header{
+    position: absolute;
+    width:100%;
+    display: flex;
+    left: 0;
+    justify-content: center;
+    z-index: -1;
+}
