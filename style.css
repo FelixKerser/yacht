@@ -560,3 +560,17 @@ footer{
     font-weight: 600;
     margin-bottom:15px;
 }
+
+.post-image__wrapper{
+    height:75vh;
+    background-position: center;
+}
+
+.post-text{
+    font-family: 'Open Sans';
+    font-size: 19px;
+    font-style: normal;
+    padding:50px 0;
+    max-width:95%;
+    margin:0 auto;
+}
