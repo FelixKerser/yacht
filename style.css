@@ -511,3 +511,52 @@ thead th{
     margin-bottom:30px;
     font-size:50px;
 }
+
+.footer__social img{
+    width:25px;
+    height:25px;
+}
+
+footer{
+    background-color:var(--Blue);
+}
+
+.footer__wrapper{
+    max-width:70%;
+    margin:0 auto;
+    padding:80px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-section-footer{
+    display:flex;
+    flex-direction: column;
+}
+
+.first-section-footer ul{
+    padding-left:0;
+}
+
+.first-section-footer ul li{
+    list-style-type: none;
+    color:white;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom:10px;
+}
+
+.first-section-footer ul li:last-child{
+    margin-bottom:40px;
+}
+
+.second-section-footer a{
+    color:white;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom:15px;
+}
