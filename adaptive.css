@@ -122,4 +122,13 @@
         .verified__wrapper{
             right: 2%;
         }
+
+        .seventh-green{
+            padding: 100px 25px;
+            max-width: 95%;
+        }
+
+        .firtb-text{
+            max-width: 100%;
+        }
 }
