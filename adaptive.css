@@ -4,6 +4,14 @@
     }
 }
 
+@media screen and (min-width:1660px) {
+    .fdw2-2, .fdw3-3{
+        height: 31%;
+    }
+}
+
+
+
 @media screen and (max-width:1280px) {
     .boats-blocks{
         grid-template-columns: 1fr;
@@ -12,6 +20,18 @@
     .sb-blocks{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .fdw2-2, .fdw3-3{
+        height: 30%;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .fdw2-2, .fdw3-3{
+        height: 24%;
     }
 }
 
@@ -43,6 +63,36 @@
     .ssection-header{
         position:relative;
     }
+
+    .verified__wrapper{
+        right: 15%;
+    }
+
+    .fdw-dziwny{
+        margin-top: 20px;
+    }
+
+    .logo-wrapper{
+        margin-right:0;
+    }
+
+    .logo-wrapper img{
+        height:42px;
+        width:42px;
+    }
+
+    .menu li{
+        font-size: 17px;
+    }
+
+    header{
+        padding-top:5px;
+        padding-bottom:5px;
+    }
+
+    .sb-blocks{
+        gap: 25px 20px;
+    }
 }
 
 @media screen and (max-width:630px) {
@@ -67,5 +117,9 @@
 
         .seventh-zag{
             padding-left:0;
+        }
+
+        .verified__wrapper{
+            right: 2%;
         }
 }

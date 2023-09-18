@@ -31,8 +31,8 @@ header{
     width: 90%;
     padding-left:5%;
     padding-right:5%;
-    padding-top:25px;
-    padding-bottom:25px;
+    padding-top:15px;
+    padding-bottom:15px;
     margin: auto;
     justify-content: space-between;
     align-items: center;
@@ -77,9 +77,9 @@ header{
 
 .tsection-header a{
     color:var(--White);
-    font-size: 23px;
+    font-size:18px;
     background-color:var(--Black);
-    padding:15px 28px;
+    padding:12px 20px;
     font-weight: 600;
     border-radius: 66px;
 }
@@ -573,4 +573,19 @@ footer{
     padding:50px 0;
     max-width:95%;
     margin:0 auto;
+}
+
+.boat-block .bb-photo{
+    border-radius:10px;
+}
+
+.fdw-img img{
+    height:440px;
+}
+
+.fdw-vloz, .fdwwww{
+    height:100%;
+}
+.fdw2-2, .fdw3-3{
+    height: 35%;
 }
