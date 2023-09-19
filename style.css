@@ -45,6 +45,10 @@ header{
     padding-left:0;
 }
 
+.header-blur{
+    background: linear-gradient(to bottom, var(--Grey) 0%, var(--Grey) 28%, var(--Grey) 45%, rgba(241, 241, 241, 0.99) 48%, rgba(241, 241, 241, 0.95) 59%, rgba(241, 241, 241, 0.9) 71%, rgba(241, 241, 241, 0.83) 78%, rgba(241, 241, 241, 0.71) 85%, rgba(241, 241, 241, 0.47) 91%, rgba(255, 255, 255, 0) 97%);
+}
+
 .menu li{
     list-style-type: none;
     margin-right:35px;
@@ -524,7 +528,7 @@ footer{
 .footer__wrapper{
     max-width:70%;
     margin:0 auto;
-    padding:80px 0;
+    padding:40px 0;
     display: flex;
     justify-content: space-between;
 }
@@ -549,7 +553,7 @@ footer{
 }
 
 .first-section-footer ul li:last-child{
-    margin-bottom:40px;
+    margin-bottom:20px;
 }
 
 .second-section-footer a{
